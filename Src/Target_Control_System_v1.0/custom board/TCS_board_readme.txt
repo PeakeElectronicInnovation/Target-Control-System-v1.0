@@ -1,1 +1,0 @@
-Add these files to the Adafruit SAMD boards directory to ensure all cores and tools are included for recompiling.
