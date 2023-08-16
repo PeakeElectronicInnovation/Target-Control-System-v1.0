@@ -1,0 +1,1243 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/tcs_m4/flash_samd51.o (memcpy)
+/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+                              build/tcs_m4/cdc_enumerate.o (memset)
+/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+                              build/tcs_m4/cdc_enumerate.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/tcs_m4/usart_sam_ba.o
+block_erased        0x80              build/tcs_m4/flash_samd51.o
+timerHigh           0x4               build/tcs_m4/utils.o
+j                   0x1               build/tcs_m4/sam_ba_monitor.o
+idx_rx_write        0x1               build/tcs_m4/usart_sam_ba.o
+size_of_data        0x2               build/tcs_m4/usart_sam_ba.o
+ctrlOutCache        0x44              build/tcs_m4/cdc_enumerate.o
+length              0x4               build/tcs_m4/sam_ba_monitor.o
+ptr                 0x4               build/tcs_m4/sam_ba_monitor.o
+command             0x1               build/tcs_m4/sam_ba_monitor.o
+resetHorizon        0x4               build/tcs_m4/utils.o
+idx_tx_read         0x1               build/tcs_m4/usart_sam_ba.o
+i                   0x4               build/tcs_m4/sam_ba_monitor.o
+buffer_tx_usart     0x80              build/tcs_m4/usart_sam_ba.o
+error_timeout       0x1               build/tcs_m4/usart_sam_ba.o
+usb_endpoint_table  0x100             build/tcs_m4/cdc_enumerate.o
+data                0x41              build/tcs_m4/sam_ba_monitor.o
+mode_of_transfer    0x1               build/tcs_m4/usart_sam_ba.o
+ptr_data            0x4               build/tcs_m4/sam_ba_monitor.o
+idx_rx_read         0x1               build/tcs_m4/usart_sam_ba.o
+sp                  0x4               build/tcs_m4/sam_ba_monitor.o
+current_number      0x4               build/tcs_m4/sam_ba_monitor.o
+idx_tx_write        0x1               build/tcs_m4/usart_sam_ba.o
+row_same            0x1000            build/tcs_m4/flash_samd51.o
+endpointCache       0x220             build/tcs_m4/cdc_enumerate.o
+u32tmp              0x4               build/tcs_m4/sam_ba_monitor.o
+buffer_rx_usart     0x80              build/tcs_m4/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/tcs_m4/flash_samd51.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/flash_samd51.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/flash_samd51.o
+ .text.flash_erase_block
+                0x0000000000000000       0x20 build/tcs_m4/flash_samd51.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/init_samd51.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/init_samd51.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/init_samd51.o
+ .data.current_cpu_frequency_MHz
+                0x0000000000000000        0x4 build/tcs_m4/init_samd51.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/startup_samd51.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/startup_samd51.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/startup_samd51.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/usart_sam_ba.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/usart_sam_ba.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/usart_sam_ba.o
+ .text.usart_open
+                0x0000000000000000       0xb8 build/tcs_m4/usart_sam_ba.o
+ .text.usart_close
+                0x0000000000000000        0xc build/tcs_m4/usart_sam_ba.o
+ .text.usart_putc
+                0x0000000000000000       0x14 build/tcs_m4/usart_sam_ba.o
+ .text.usart_getc
+                0x0000000000000000       0x10 build/tcs_m4/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x0000000000000000       0x24 build/tcs_m4/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x0000000000000000       0x10 build/tcs_m4/usart_sam_ba.o
+ .text.usart_readc
+                0x0000000000000000       0x20 build/tcs_m4/usart_sam_ba.o
+ .text.usart_putdata
+                0x0000000000000000       0x24 build/tcs_m4/usart_sam_ba.o
+ .text.usart_getdata
+                0x0000000000000000       0x14 build/tcs_m4/usart_sam_ba.o
+ .text.getbytes
+                0x0000000000000000       0x84 build/tcs_m4/usart_sam_ba.o
+ .text.getPacket
+                0x0000000000000000       0x84 build/tcs_m4/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x0000000000000000      0x148 build/tcs_m4/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x0000000000000000       0xd8 build/tcs_m4/usart_sam_ba.o
+ COMMON         0x0000000000000000      0x10c build/tcs_m4/usart_sam_ba.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/screen.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/screen.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/screen.o
+ .debug_info    0x0000000000000000      0x931 build/tcs_m4/screen.o
+ .debug_abbrev  0x0000000000000000      0x197 build/tcs_m4/screen.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/tcs_m4/screen.o
+ .debug_line    0x0000000000000000      0x131 build/tcs_m4/screen.o
+ .debug_str     0x0000000000000000      0x604 build/tcs_m4/screen.o
+ .comment       0x0000000000000000       0x80 build/tcs_m4/screen.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/tcs_m4/screen.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/images.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/images.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/images.o
+ .rodata.arrowLogo
+                0x0000000000000000       0x39 build/tcs_m4/images.o
+ .rodata.fileLogo
+                0x0000000000000000       0x4a build/tcs_m4/images.o
+ .rodata.font8  0x0000000000000000      0x240 build/tcs_m4/images.o
+ .rodata.pendriveLogo
+                0x0000000000000000       0x3e build/tcs_m4/images.o
+ .debug_info    0x0000000000000000      0x118 build/tcs_m4/images.o
+ .debug_abbrev  0x0000000000000000       0x66 build/tcs_m4/images.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/tcs_m4/images.o
+ .debug_line    0x0000000000000000       0x90 build/tcs_m4/images.o
+ .debug_str     0x0000000000000000      0x1b0 build/tcs_m4/images.o
+ .comment       0x0000000000000000       0x80 build/tcs_m4/images.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/tcs_m4/images.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/utils.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/utils.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/utils.o
+ .text.panic    0x0000000000000000        0x4 build/tcs_m4/utils.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/cdc_enumerate.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/cdc_enumerate.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/cdc_enumerate.o
+ .text.USB_Read
+                0x0000000000000000        0x8 build/tcs_m4/cdc_enumerate.o
+ .text.AT91F_USB_SendZlp
+                0x0000000000000000       0x18 build/tcs_m4/cdc_enumerate.o
+ .text.reset_ep
+                0x0000000000000000       0x30 build/tcs_m4/cdc_enumerate.o
+ .text.stall_ep
+                0x0000000000000000       0x24 build/tcs_m4/cdc_enumerate.o
+ .text.cdc_is_rx_ready
+                0x0000000000000000       0x18 build/tcs_m4/cdc_enumerate.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/fat.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/fat.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/fat.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/main.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/main.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/main.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/msc.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/msc.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/msc.o
+ .text.msc_reset
+                0x0000000000000000       0x1c build/tcs_m4/msc.o
+ .text.udd_ep_set_halt
+                0x0000000000000000       0x14 build/tcs_m4/msc.o
+ .text.udi_msc_csw_send
+                0x0000000000000000       0x10 build/tcs_m4/msc.o
+ .bss.mscReset  0x0000000000000000        0x1 build/tcs_m4/msc.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/sam_ba_monitor.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/sam_ba_monitor.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/sam_ba_monitor.o
+ .text.sam_ba_monitor_init
+                0x0000000000000000        0x4 build/tcs_m4/sam_ba_monitor.o
+ .text.sam_ba_putdata_term
+                0x0000000000000000        0x4 build/tcs_m4/sam_ba_monitor.o
+ .text.call_applet
+                0x0000000000000000       0x20 build/tcs_m4/sam_ba_monitor.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/uart_driver.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/uart_driver.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/uart_driver.o
+ .text.uart_get_sercom_index
+                0x0000000000000000       0x34 build/tcs_m4/uart_driver.o
+ .text.uart_basic_init
+                0x0000000000000000       0x60 build/tcs_m4/uart_driver.o
+ .text.uart_disable
+                0x0000000000000000       0x14 build/tcs_m4/uart_driver.o
+ .text.uart_write_byte
+                0x0000000000000000        0xc build/tcs_m4/uart_driver.o
+ .text.uart_read_byte
+                0x0000000000000000       0x2c build/tcs_m4/uart_driver.o
+ .text.uart_write_buffer_polled
+                0x0000000000000000       0x18 build/tcs_m4/uart_driver.o
+ .text.uart_read_buffer_polled
+                0x0000000000000000       0x38 build/tcs_m4/uart_driver.o
+ .rodata        0x0000000000000000       0x18 build/tcs_m4/uart_driver.o
+ .bss.uart_drv_error_flag
+                0x0000000000000000        0x1 build/tcs_m4/uart_driver.o
+ .debug_info    0x0000000000000000     0x2a56 build/tcs_m4/uart_driver.o
+ .debug_abbrev  0x0000000000000000      0x2ad build/tcs_m4/uart_driver.o
+ .debug_loc     0x0000000000000000      0x134 build/tcs_m4/uart_driver.o
+ .debug_aranges
+                0x0000000000000000       0x50 build/tcs_m4/uart_driver.o
+ .debug_ranges  0x0000000000000000       0x40 build/tcs_m4/uart_driver.o
+ .debug_line    0x0000000000000000      0x281 build/tcs_m4/uart_driver.o
+ .debug_str     0x0000000000000000      0xf27 build/tcs_m4/uart_driver.o
+ .comment       0x0000000000000000       0x80 build/tcs_m4/uart_driver.o
+ .debug_frame   0x0000000000000000       0xb0 build/tcs_m4/uart_driver.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/tcs_m4/uart_driver.o
+ .text          0x0000000000000000        0x0 build/tcs_m4/hid.o
+ .data          0x0000000000000000        0x0 build/tcs_m4/hid.o
+ .bss           0x0000000000000000        0x0 build/tcs_m4/hid.o
+ .text.send_hf2_response
+                0x0000000000000000       0x10 build/tcs_m4/hid.o
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000004000 xr
+ram              0x0000000020000000 0x0000000000030000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/tcs_m4/flash_samd51.o
+LOAD build/tcs_m4/init_samd51.o
+LOAD build/tcs_m4/startup_samd51.o
+LOAD build/tcs_m4/usart_sam_ba.o
+LOAD build/tcs_m4/screen.o
+LOAD build/tcs_m4/images.o
+LOAD build/tcs_m4/utils.o
+LOAD build/tcs_m4/cdc_enumerate.o
+LOAD build/tcs_m4/fat.o
+LOAD build/tcs_m4/main.o
+LOAD build/tcs_m4/msc.o
+LOAD build/tcs_m4/sam_ba_monitor.o
+LOAD build/tcs_m4/uart_driver.o
+LOAD build/tcs_m4/hid.o
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libnosys.a
+END GROUP
+                0x000000000000c000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0xc000
+
+.text           0x0000000000000000     0x2328
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000000000      0x264 build/tcs_m4/startup_samd51.o
+                0x0000000000000000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_to_end
+                0x0000000000000264       0x34 build/tcs_m4/flash_samd51.o
+                0x0000000000000264                flash_erase_to_end
+ .text.copy_words
+                0x0000000000000298       0x18 build/tcs_m4/flash_samd51.o
+                0x0000000000000298                copy_words
+ .text.flash_write_words
+                0x00000000000002b0       0x6c build/tcs_m4/flash_samd51.o
+                0x00000000000002b0                flash_write_words
+ .text.flash_write_row
+                0x000000000000031c      0x17c build/tcs_m4/flash_samd51.o
+                0x000000000000031c                flash_write_row
+ .text.system_init
+                0x0000000000000498       0xd0 build/tcs_m4/init_samd51.o
+                0x0000000000000498                system_init
+ .text.SysTick_Handler
+                0x0000000000000568        0x4 build/tcs_m4/init_samd51.o
+                0x0000000000000568                SysTick_Handler
+ .text.Dummy_Handler
+                0x000000000000056c        0x4 build/tcs_m4/startup_samd51.o
+                0x000000000000056c                EIC_5_Handler
+                0x000000000000056c                SERCOM0_2_Handler
+                0x000000000000056c                DebugMon_Handler
+                0x000000000000056c                EIC_13_Handler
+                0x000000000000056c                EVSYS_0_Handler
+                0x000000000000056c                TCC1_3_Handler
+                0x000000000000056c                DAC_3_Handler
+                0x000000000000056c                TRNG_Handler
+                0x000000000000056c                HardFault_Handler
+                0x000000000000056c                TC2_Handler
+                0x000000000000056c                PDEC_2_Handler
+                0x000000000000056c                EIC_4_Handler
+                0x000000000000056c                AC_Handler
+                0x000000000000056c                SERCOM3_1_Handler
+                0x000000000000056c                TCC2_3_Handler
+                0x000000000000056c                SERCOM3_2_Handler
+                0x000000000000056c                PendSV_Handler
+                0x000000000000056c                NMI_Handler
+                0x000000000000056c                ADC1_1_Handler
+                0x000000000000056c                EVSYS_3_Handler
+                0x000000000000056c                PDEC_0_Handler
+                0x000000000000056c                QSPI_Handler
+                0x000000000000056c                TCC0_0_Handler
+                0x000000000000056c                EIC_3_Handler
+                0x000000000000056c                TAL_0_Handler
+                0x000000000000056c                DAC_2_Handler
+                0x000000000000056c                SERCOM0_0_Handler
+                0x000000000000056c                RTC_Handler
+                0x000000000000056c                UsageFault_Handler
+                0x000000000000056c                SERCOM4_0_Handler
+                0x000000000000056c                EIC_10_Handler
+                0x000000000000056c                SERCOM0_3_Handler
+                0x000000000000056c                EIC_11_Handler
+                0x000000000000056c                EIC_9_Handler
+                0x000000000000056c                OSC32KCTRL_Handler
+                0x000000000000056c                TCC2_1_Handler
+                0x000000000000056c                SUPC_1_Handler
+                0x000000000000056c                TCC0_5_Handler
+                0x000000000000056c                TCC0_6_Handler
+                0x000000000000056c                EVSYS_1_Handler
+                0x000000000000056c                TCC1_4_Handler
+                0x000000000000056c                DMAC_0_Handler
+                0x000000000000056c                WDT_Handler
+                0x000000000000056c                EIC_8_Handler
+                0x000000000000056c                EIC_15_Handler
+                0x000000000000056c                SERCOM5_0_Handler
+                0x000000000000056c                TC4_Handler
+                0x000000000000056c                TC1_Handler
+                0x000000000000056c                OSCCTRL_4_Handler
+                0x000000000000056c                SERCOM4_3_Handler
+                0x000000000000056c                EIC_12_Handler
+                0x000000000000056c                DMAC_4_Handler
+                0x000000000000056c                TCC4_2_Handler
+                0x000000000000056c                PAC_Handler
+                0x000000000000056c                TCC1_0_Handler
+                0x000000000000056c                USB_0_Handler
+                0x000000000000056c                OSCCTRL_0_Handler
+                0x000000000000056c                EIC_0_Handler
+                0x000000000000056c                OSCCTRL_3_Handler
+                0x000000000000056c                SERCOM4_1_Handler
+                0x000000000000056c                TC3_Handler
+                0x000000000000056c                Dummy_Handler
+                0x000000000000056c                TCC3_0_Handler
+                0x000000000000056c                TCC2_2_Handler
+                0x000000000000056c                SERCOM5_1_Handler
+                0x000000000000056c                TCC1_1_Handler
+                0x000000000000056c                DMAC_2_Handler
+                0x000000000000056c                ADC0_0_Handler
+                0x000000000000056c                SERCOM0_1_Handler
+                0x000000000000056c                OSCCTRL_2_Handler
+                0x000000000000056c                ADC1_0_Handler
+                0x000000000000056c                TCC1_2_Handler
+                0x000000000000056c                USB_1_Handler
+                0x000000000000056c                PM_Handler
+                0x000000000000056c                SERCOM2_3_Handler
+                0x000000000000056c                DAC_4_Handler
+                0x000000000000056c                TCC3_2_Handler
+                0x000000000000056c                TCC0_2_Handler
+                0x000000000000056c                DMAC_1_Handler
+                0x000000000000056c                TCC4_0_Handler
+                0x000000000000056c                USB_3_Handler
+                0x000000000000056c                TCC2_0_Handler
+                0x000000000000056c                PDEC_1_Handler
+                0x000000000000056c                MemManage_Handler
+                0x000000000000056c                TCC4_1_Handler
+                0x000000000000056c                SERCOM5_3_Handler
+                0x000000000000056c                USB_2_Handler
+                0x000000000000056c                SVC_Handler
+                0x000000000000056c                SDHC0_Handler
+                0x000000000000056c                SERCOM1_1_Handler
+                0x000000000000056c                I2S_Handler
+                0x000000000000056c                EIC_2_Handler
+                0x000000000000056c                PCC_Handler
+                0x000000000000056c                DAC_0_Handler
+                0x000000000000056c                TCC0_1_Handler
+                0x000000000000056c                SERCOM1_3_Handler
+                0x000000000000056c                EIC_6_Handler
+                0x000000000000056c                OSCCTRL_1_Handler
+                0x000000000000056c                SERCOM1_0_Handler
+                0x000000000000056c                PUKCC_Handler
+                0x000000000000056c                SERCOM2_1_Handler
+                0x000000000000056c                SERCOM1_2_Handler
+                0x000000000000056c                SERCOM3_0_Handler
+                0x000000000000056c                EIC_1_Handler
+                0x000000000000056c                SERCOM4_2_Handler
+                0x000000000000056c                EVSYS_4_Handler
+                0x000000000000056c                EIC_7_Handler
+                0x000000000000056c                NVMCTRL_1_Handler
+                0x000000000000056c                SERCOM5_2_Handler
+                0x000000000000056c                SERCOM3_3_Handler
+                0x000000000000056c                ADC0_1_Handler
+                0x000000000000056c                SERCOM2_2_Handler
+                0x000000000000056c                TCC3_1_Handler
+                0x000000000000056c                EIC_14_Handler
+                0x000000000000056c                DAC_1_Handler
+                0x000000000000056c                NVMCTRL_0_Handler
+                0x000000000000056c                TAL_1_Handler
+                0x000000000000056c                MCLK_Handler
+                0x000000000000056c                EVSYS_2_Handler
+                0x000000000000056c                SUPC_0_Handler
+                0x000000000000056c                BusFault_Handler
+                0x000000000000056c                FREQM_Handler
+                0x000000000000056c                TC0_Handler
+                0x000000000000056c                TCC0_3_Handler
+                0x000000000000056c                DMAC_3_Handler
+                0x000000000000056c                TCC0_4_Handler
+                0x000000000000056c                RAMECC_Handler
+                0x000000000000056c                TC5_Handler
+                0x000000000000056c                SERCOM2_0_Handler
+                0x000000000000056c                AES_Handler
+                0x000000000000056c                ICM_Handler
+ .text.Reset_Handler
+                0x0000000000000570       0x74 build/tcs_m4/startup_samd51.o
+                0x0000000000000570                Reset_Handler
+ .text.add_crc  0x00000000000005e4       0x58 build/tcs_m4/usart_sam_ba.o
+                0x00000000000005e4                add_crc
+ .text.NVIC_SystemReset
+                0x000000000000063c       0x20 build/tcs_m4/utils.o
+ .text.neopixel_send_buffer_core
+                0x000000000000065c       0x38 build/tcs_m4/utils.o
+ .text.delay    0x0000000000000694       0x28 build/tcs_m4/utils.o
+                0x0000000000000694                delay
+ .text.writeNum
+                0x00000000000006bc       0x40 build/tcs_m4/utils.o
+                0x00000000000006bc                writeNum
+ .text.resetIntoBootloader
+                0x00000000000006fc       0x14 build/tcs_m4/utils.o
+                0x00000000000006fc                resetIntoBootloader
+ .text.led_tick
+                0x0000000000000710       0x98 build/tcs_m4/utils.o
+                0x0000000000000710                led_tick
+ .text.led_signal
+                0x00000000000007a8       0x2c build/tcs_m4/utils.o
+                0x00000000000007a8                led_signal
+ .text.led_init
+                0x00000000000007d4       0x14 build/tcs_m4/utils.o
+                0x00000000000007d4                led_init
+ .text.RGBLED_set_color
+                0x00000000000007e8       0x64 build/tcs_m4/utils.o
+                0x00000000000007e8                RGBLED_set_color
+ .text.resetIntoApp
+                0x000000000000084c       0x1c build/tcs_m4/utils.o
+                0x000000000000084c                resetIntoApp
+ .text.timerTick
+                0x0000000000000868       0x3c build/tcs_m4/utils.o
+                0x0000000000000868                timerTick
+ .text.AT91F_InitUSB
+                0x00000000000008a4      0x108 build/tcs_m4/cdc_enumerate.o
+                0x00000000000008a4                AT91F_InitUSB
+ .text.USB_ReadCore
+                0x00000000000009ac       0xe4 build/tcs_m4/cdc_enumerate.o
+                0x00000000000009ac                USB_ReadCore
+ .text.USB_ReadBlocking
+                0x0000000000000a90       0x24 build/tcs_m4/cdc_enumerate.o
+                0x0000000000000a90                USB_ReadBlocking
+ .text.USB_WriteCore
+                0x0000000000000ab4       0x88 build/tcs_m4/cdc_enumerate.o
+                0x0000000000000ab4                USB_WriteCore
+ .text.USB_Write
+                0x0000000000000b3c        0x8 build/tcs_m4/cdc_enumerate.o
+                0x0000000000000b3c                USB_Write
+ .text.USB_Ok   0x0000000000000b44      0x570 build/tcs_m4/cdc_enumerate.o
+                0x0000000000000b44                USB_Ok
+ .text.usb_init
+                0x00000000000010b4       0x20 build/tcs_m4/cdc_enumerate.o
+                0x00000000000010b4                usb_init
+ .text.cdc_write_buf
+                0x00000000000010d4       0x10 build/tcs_m4/cdc_enumerate.o
+                0x00000000000010d4                cdc_write_buf
+ .text.cdc_write_buf_xmd
+                0x00000000000010e4        0x4 build/tcs_m4/cdc_enumerate.o
+                0x00000000000010e4                cdc_write_buf_xmd
+ .text.cdc_read_buf
+                0x00000000000010e8       0x20 build/tcs_m4/cdc_enumerate.o
+                0x00000000000010e8                cdc_read_buf
+ .text.cdc_read_buf_xmd
+                0x0000000000001108       0x2c build/tcs_m4/cdc_enumerate.o
+                0x0000000000001108                cdc_read_buf_xmd
+ .text.padded_memcpy
+                0x0000000000001134       0x2c build/tcs_m4/fat.o
+                0x0000000000001134                padded_memcpy
+ .text.read_block
+                0x0000000000001160      0x1d4 build/tcs_m4/fat.o
+                0x0000000000001160                read_block
+ .text.write_block
+                0x0000000000001334       0xfc build/tcs_m4/fat.o
+                0x0000000000001334                write_block
+ .text.startup.main
+                0x0000000000001430      0x1b4 build/tcs_m4/main.o
+                0x0000000000001430                main
+ .text.udi_msc_spc_testunitready
+                0x00000000000015e4       0x3c build/tcs_m4/msc.o
+ .text.handover_flash
+                0x0000000000001620       0x34 build/tcs_m4/msc.o
+ .text.udi_msc_sbc_trans
+                0x0000000000001654       0xf0 build/tcs_m4/msc.o
+ .text.udi_msc_sense_fail.constprop.2
+                0x0000000000001744       0x30 build/tcs_m4/msc.o
+ .text.udi_msc_data_send
+                0x0000000000001774       0x6c build/tcs_m4/msc.o
+ .text.udi_msc_spc_mode_sense
+                0x00000000000017e0       0x74 build/tcs_m4/msc.o
+ .text.try_read_cbw
+                0x0000000000001854       0x28 build/tcs_m4/msc.o
+                0x0000000000001854                try_read_cbw
+ .text.handover
+                0x000000000000187c      0x104 build/tcs_m4/msc.o
+ .text.process_msc
+                0x0000000000001980      0x180 build/tcs_m4/msc.o
+                0x0000000000001980                process_msc
+ .text.handoverPrep
+                0x0000000000001b00       0x20 build/tcs_m4/msc.o
+                0x0000000000001b00                handoverPrep
+ .text.put_uint32
+                0x0000000000001b20       0x1c build/tcs_m4/sam_ba_monitor.o
+                0x0000000000001b20                put_uint32
+ .text.sam_ba_monitor_run
+                0x0000000000001b3c      0x2fc build/tcs_m4/sam_ba_monitor.o
+                0x0000000000001b3c                sam_ba_monitor_run
+ .text.recv_hf2
+                0x0000000000001e38       0x50 build/tcs_m4/hid.o
+                0x0000000000001e38                recv_hf2
+ .text.send_hf2
+                0x0000000000001e88       0xa4 build/tcs_m4/hid.o
+                0x0000000000001e88                send_hf2
+ .text.process_core
+                0x0000000000001f2c      0x148 build/tcs_m4/hid.o
+                0x0000000000001f2c                process_core
+ .text.process_hid
+                0x0000000000002074       0x2c build/tcs_m4/hid.o
+                0x0000000000002074                process_hid
+ .text.hidHandoverLoop
+                0x00000000000020a0       0x24 build/tcs_m4/hid.o
+                0x00000000000020a0                hidHandoverLoop
+ .text.memcpy   0x00000000000020c4       0x16 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000020c4                memcpy
+ .text.memset   0x00000000000020da       0x10 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+                0x00000000000020da                memset
+ .text          0x00000000000020ea       0x10 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+                0x00000000000020ea                strlen
+ *(.glue_7t)
+ .glue_7t       0x00000000000020fa        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000000020fa        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ *fill*         0x00000000000020fa        0x2 
+ .rodata        0x00000000000020fc       0x10 build/tcs_m4/cdc_enumerate.o
+ .rodata.devDescriptor
+                0x000000000000210c       0x12 build/tcs_m4/cdc_enumerate.o
+                0x000000000000210c                devDescriptor
+ *fill*         0x000000000000211e        0x2 
+ .rodata.hidDescriptor
+                0x0000000000002120       0x21 build/tcs_m4/cdc_enumerate.o
+                0x0000000000002120                hidDescriptor
+ *fill*         0x0000000000002141        0x3 
+ .rodata.str1.4
+                0x0000000000002144       0x23 build/tcs_m4/cdc_enumerate.o
+ *fill*         0x0000000000002167        0x1 
+ .rodata.string_descriptors
+                0x0000000000002168       0x10 build/tcs_m4/cdc_enumerate.o
+ .rodata.BootBlock
+                0x0000000000002178       0x3e build/tcs_m4/fat.o
+ *fill*         0x00000000000021b6        0x2 
+ .rodata.indexFile
+                0x00000000000021b8       0x9b build/tcs_m4/fat.o
+                0x00000000000021b8                indexFile
+ *fill*         0x0000000000002253        0x1 
+ .rodata.info   0x0000000000002254       0x30 build/tcs_m4/fat.o
+ .rodata.infoUf2File
+                0x0000000000002284       0x58 build/tcs_m4/fat.o
+                0x0000000000002284                infoUf2File
+ .rodata        0x00000000000022dc        0xc build/tcs_m4/msc.o
+ .rodata.process_msc.str1.4
+                0x00000000000022e8        0x7 build/tcs_m4/msc.o
+ .rodata.fullVersion
+                0x00000000000022e8       0x2a build/tcs_m4/sam_ba_monitor.o
+ *fill*         0x0000000000002312        0x2 
+ .rodata.sam_ba_monitor_run.str1.4
+                0x0000000000002314       0x14 build/tcs_m4/sam_ba_monitor.o
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000002328                . = ALIGN (0x4)
+ *(.init)
+                0x0000000000002328                . = ALIGN (0x4)
+                0x0000000000002328                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000000002328                __preinit_array_end = .
+                0x0000000000002328                . = ALIGN (0x4)
+                0x0000000000002328                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000000002328                __init_array_end = .
+                0x0000000000002328                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000000002328                . = ALIGN (0x4)
+                0x0000000000002328                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.vfp11_veneer   0x0000000000002328        0x0
+ .vfp11_veneer  0x0000000000002328        0x0 linker stubs
+
+.v4_bx          0x0000000000002328        0x0
+ .v4_bx         0x0000000000002328        0x0 linker stubs
+
+.iplt           0x0000000000002328        0x0
+ .iplt          0x0000000000002328        0x0 build/tcs_m4/flash_samd51.o
+
+.igot.plt       0x0000000000002328        0x0
+ .igot.plt      0x0000000000002328        0x0 build/tcs_m4/flash_samd51.o
+
+.rel.dyn        0x0000000000002328        0x0
+ .rel.iplt      0x0000000000002328        0x0 build/tcs_m4/flash_samd51.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x0000000000002328                . = ALIGN (0x4)
+                0x0000000000002328                _etext = .
+
+.relocate       0x0000000020000000      0x1d0 load address 0x0000000000002328
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.led_tick_step
+                0x0000000020000000        0x1 build/tcs_m4/utils.o
+                0x0000000020000000                led_tick_step
+ .data.limit    0x0000000020000001        0x1 build/tcs_m4/utils.o
+ *fill*         0x0000000020000002        0x2 
+ .data.bosDescriptor
+                0x0000000020000004       0x39 build/tcs_m4/cdc_enumerate.o
+ *fill*         0x000000002000003d        0x3 
+ .data.cfgDescriptor
+                0x0000000020000040       0x99 build/tcs_m4/cdc_enumerate.o
+                0x0000000020000040                cfgDescriptor
+ *fill*         0x00000000200000d9        0x3 
+ .data.hidCfgDescriptor
+                0x00000000200000dc        0x9 build/tcs_m4/cdc_enumerate.o
+                0x00000000200000dc                hidCfgDescriptor
+ *fill*         0x00000000200000e5        0x3 
+ .data.line_coding
+                0x00000000200000e8        0x8 build/tcs_m4/cdc_enumerate.o
+ .data.msOS20Descriptor
+                0x00000000200000f0       0xaa build/tcs_m4/cdc_enumerate.o
+ *fill*         0x000000002000019a        0x2 
+ .data.udi_msc_csw
+                0x000000002000019c        0xd build/tcs_m4/msc.o
+ *fill*         0x00000000200001a9        0x3 
+ .data.udi_msc_inquiry_data.17240
+                0x00000000200001ac       0x24 build/tcs_m4/msc.o
+                0x00000000200001d0                . = ALIGN (0x4)
+                0x00000000200001d0                _erelocate = .
+
+.bss            0x00000000200001d0     0x1e10 load address 0x00000000000024f8
+                0x00000000200001d0                . = ALIGN (0x4)
+                0x00000000200001d0                _sbss = .
+                0x00000000200001d0                _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x00000000200001d0      0x200 build/tcs_m4/usart_sam_ba.o
+ .bss.led_tick_on
+                0x00000000200003d0        0x1 build/tcs_m4/utils.o
+                0x00000000200003d0                led_tick_on
+ *fill*         0x00000000200003d1        0x3 
+ .bss.now       0x00000000200003d4        0x4 build/tcs_m4/utils.o
+ .bss.signal_end
+                0x00000000200003d8        0x4 build/tcs_m4/utils.o
+ .bss.timerLow  0x00000000200003dc        0x4 build/tcs_m4/utils.o
+ .bss.currentConfiguration
+                0x00000000200003e0        0x1 build/tcs_m4/cdc_enumerate.o
+ *fill*         0x00000000200003e1        0x3 
+ .bss.serial_number
+                0x00000000200003e4       0x21 build/tcs_m4/cdc_enumerate.o
+ *fill*         0x0000000020000405        0x1 
+ .bss.wLength   0x0000000020000406        0x2 build/tcs_m4/cdc_enumerate.o
+ .bss.main_b_cdc_enable
+                0x0000000020000408        0x1 build/tcs_m4/main.o
+ *fill*         0x0000000020000409        0x3 
+ .bss.block_buffer
+                0x000000002000040c      0x200 build/tcs_m4/msc.o
+ .bss.sense.17263
+                0x000000002000060c       0x14 build/tcs_m4/msc.o
+ .bss.udi_msc_capacity.17273
+                0x0000000020000620        0x8 build/tcs_m4/msc.o
+ .bss.udi_msc_cbw
+                0x0000000020000628       0x1f build/tcs_m4/msc.o
+ *fill*         0x0000000020000647        0x1 
+ .bss.udi_msc_sense
+                0x0000000020000648       0x12 build/tcs_m4/msc.o
+ *fill*         0x000000002000065a        0x2 
+ .bss.usbWriteState
+                0x000000002000065c      0x218 build/tcs_m4/msc.o
+ .bss.b_sam_ba_interface_usart
+                0x0000000020000874        0x1 build/tcs_m4/sam_ba_monitor.o
+                0x0000000020000874                b_sam_ba_interface_usart
+ *fill*         0x0000000020000875        0x3 
+ .bss.src_buff_addr.16685
+                0x0000000020000878        0x4 build/tcs_m4/sam_ba_monitor.o
+ .bss.hidbufData
+                0x000000002000087c      0x188 build/tcs_m4/hid.o
+ .bss.webbufData
+                0x0000000020000a04      0x188 build/tcs_m4/hid.o
+ *(COMMON)
+ COMMON         0x0000000020000b8c     0x1080 build/tcs_m4/flash_samd51.o
+                0x0000000020000b8c                block_erased
+                0x0000000020000c0c                row_same
+ COMMON         0x0000000020001c0c        0x8 build/tcs_m4/utils.o
+                0x0000000020001c0c                timerHigh
+                0x0000000020001c10                resetHorizon
+ COMMON         0x0000000020001c14      0x364 build/tcs_m4/cdc_enumerate.o
+                0x0000000020001c14                ctrlOutCache
+                0x0000000020001c58                usb_endpoint_table
+                0x0000000020001d58                endpointCache
+ COMMON         0x0000000020001f78       0x68 build/tcs_m4/sam_ba_monitor.o
+                0x0000000020001f78                j
+                0x0000000020001f7c                length
+                0x0000000020001f80                ptr
+                0x0000000020001f84                command
+                0x0000000020001f88                i
+                0x0000000020001f8c                data
+                0x0000000020001fd0                ptr_data
+                0x0000000020001fd4                sp
+                0x0000000020001fd8                current_number
+                0x0000000020001fdc                u32tmp
+                0x0000000020001fe0                . = ALIGN (0x4)
+                0x0000000020001fe0                _ebss = .
+                0x0000000020001fe0                _ezero = .
+
+.stack          0x0000000020001fe0     0xc000 load address 0x0000000000004308
+                0x0000000020001fe0                . = ALIGN (0x8)
+                0x0000000020001fe0                _sstack = .
+                0x000000002000dfe0                . = (. + STACK_SIZE)
+ *fill*         0x0000000020001fe0     0xc000 
+                0x000000002000dfe0                . = ALIGN (0x8)
+                0x000000002000dfe0                _estack = .
+                0x000000002000dfe0                . = ALIGN (0x4)
+                0x000000002000dfe0                _end = .
+                0x0000000000003ff0                _binfo_start = 0x3ff0
+
+.binfo          0x0000000000003ff0       0x10
+ *(.binfo)
+ .binfo         0x0000000000003ff0       0x10 build/tcs_m4/msc.o
+                0x0000000000003ff0                binfo
+OUTPUT(build/tcs_m4/bootloader-tcs_m4-v3.14.0-10-gb17ca18.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x18f0e
+ .debug_info    0x0000000000000000     0x15dd build/tcs_m4/flash_samd51.o
+ .debug_info    0x00000000000015dd     0x32b7 build/tcs_m4/init_samd51.o
+ .debug_info    0x0000000000004894      0xb7b build/tcs_m4/startup_samd51.o
+ .debug_info    0x000000000000540f     0x46b3 build/tcs_m4/usart_sam_ba.o
+ .debug_info    0x0000000000009ac2     0x1630 build/tcs_m4/utils.o
+ .debug_info    0x000000000000b0f2     0x4e3e build/tcs_m4/cdc_enumerate.o
+ .debug_info    0x000000000000ff30     0x10a3 build/tcs_m4/fat.o
+ .debug_info    0x0000000000010fd3     0x1fae build/tcs_m4/main.o
+ .debug_info    0x0000000000012f81     0x3c04 build/tcs_m4/msc.o
+ .debug_info    0x0000000000016b85      0xf83 build/tcs_m4/sam_ba_monitor.o
+ .debug_info    0x0000000000017b08     0x1406 build/tcs_m4/hid.o
+
+.debug_abbrev   0x0000000000000000     0x2998
+ .debug_abbrev  0x0000000000000000      0x350 build/tcs_m4/flash_samd51.o
+ .debug_abbrev  0x0000000000000350      0x300 build/tcs_m4/init_samd51.o
+ .debug_abbrev  0x0000000000000650      0x15c build/tcs_m4/startup_samd51.o
+ .debug_abbrev  0x00000000000007ac      0x549 build/tcs_m4/usart_sam_ba.o
+ .debug_abbrev  0x0000000000000cf5      0x435 build/tcs_m4/utils.o
+ .debug_abbrev  0x000000000000112a      0x4da build/tcs_m4/cdc_enumerate.o
+ .debug_abbrev  0x0000000000001604      0x35b build/tcs_m4/fat.o
+ .debug_abbrev  0x000000000000195f      0x35d build/tcs_m4/main.o
+ .debug_abbrev  0x0000000000001cbc      0x575 build/tcs_m4/msc.o
+ .debug_abbrev  0x0000000000002231      0x385 build/tcs_m4/sam_ba_monitor.o
+ .debug_abbrev  0x00000000000025b6      0x3e2 build/tcs_m4/hid.o
+
+.debug_loc      0x0000000000000000     0x434c
+ .debug_loc     0x0000000000000000      0x55b build/tcs_m4/flash_samd51.o
+ .debug_loc     0x000000000000055b       0x3f build/tcs_m4/init_samd51.o
+ .debug_loc     0x000000000000059a       0x4b build/tcs_m4/startup_samd51.o
+ .debug_loc     0x00000000000005e5      0x94a build/tcs_m4/usart_sam_ba.o
+ .debug_loc     0x0000000000000f2f      0x21f build/tcs_m4/utils.o
+ .debug_loc     0x000000000000114e     0x1a68 build/tcs_m4/cdc_enumerate.o
+ .debug_loc     0x0000000000002bb6      0x6c0 build/tcs_m4/fat.o
+ .debug_loc     0x0000000000003276       0x92 build/tcs_m4/main.o
+ .debug_loc     0x0000000000003308      0x580 build/tcs_m4/msc.o
+ .debug_loc     0x0000000000003888      0x24a build/tcs_m4/sam_ba_monitor.o
+ .debug_loc     0x0000000000003ad2      0x87a build/tcs_m4/hid.o
+
+.debug_aranges  0x0000000000000000      0x378
+ .debug_aranges
+                0x0000000000000000       0x40 build/tcs_m4/flash_samd51.o
+ .debug_aranges
+                0x0000000000000040       0x28 build/tcs_m4/init_samd51.o
+ .debug_aranges
+                0x0000000000000068       0x28 build/tcs_m4/startup_samd51.o
+ .debug_aranges
+                0x0000000000000090       0x88 build/tcs_m4/usart_sam_ba.o
+ .debug_aranges
+                0x0000000000000118       0x78 build/tcs_m4/utils.o
+ .debug_aranges
+                0x0000000000000190       0x90 build/tcs_m4/cdc_enumerate.o
+ .debug_aranges
+                0x0000000000000220       0x30 build/tcs_m4/fat.o
+ .debug_aranges
+                0x0000000000000250       0x20 build/tcs_m4/main.o
+ .debug_aranges
+                0x0000000000000270       0x80 build/tcs_m4/msc.o
+ .debug_aranges
+                0x00000000000002f0       0x40 build/tcs_m4/sam_ba_monitor.o
+ .debug_aranges
+                0x0000000000000330       0x48 build/tcs_m4/hid.o
+
+.debug_ranges   0x0000000000000000      0xbe0
+ .debug_ranges  0x0000000000000000       0xf8 build/tcs_m4/flash_samd51.o
+ .debug_ranges  0x00000000000000f8       0x50 build/tcs_m4/init_samd51.o
+ .debug_ranges  0x0000000000000148       0x18 build/tcs_m4/startup_samd51.o
+ .debug_ranges  0x0000000000000160      0x190 build/tcs_m4/usart_sam_ba.o
+ .debug_ranges  0x00000000000002f0       0xb8 build/tcs_m4/utils.o
+ .debug_ranges  0x00000000000003a8      0x230 build/tcs_m4/cdc_enumerate.o
+ .debug_ranges  0x00000000000005d8       0xf8 build/tcs_m4/fat.o
+ .debug_ranges  0x00000000000006d0       0x28 build/tcs_m4/main.o
+ .debug_ranges  0x00000000000006f8      0x350 build/tcs_m4/msc.o
+ .debug_ranges  0x0000000000000a48       0x78 build/tcs_m4/sam_ba_monitor.o
+ .debug_ranges  0x0000000000000ac0      0x120 build/tcs_m4/hid.o
+
+.debug_line     0x0000000000000000     0x2396
+ .debug_line    0x0000000000000000      0x290 build/tcs_m4/flash_samd51.o
+ .debug_line    0x0000000000000290      0x235 build/tcs_m4/init_samd51.o
+ .debug_line    0x00000000000004c5      0x123 build/tcs_m4/startup_samd51.o
+ .debug_line    0x00000000000005e8      0x497 build/tcs_m4/usart_sam_ba.o
+ .debug_line    0x0000000000000a7f      0x370 build/tcs_m4/utils.o
+ .debug_line    0x0000000000000def      0x54c build/tcs_m4/cdc_enumerate.o
+ .debug_line    0x000000000000133b      0x2d7 build/tcs_m4/fat.o
+ .debug_line    0x0000000000001612      0x29a build/tcs_m4/main.o
+ .debug_line    0x00000000000018ac      0x532 build/tcs_m4/msc.o
+ .debug_line    0x0000000000001dde      0x2f9 build/tcs_m4/sam_ba_monitor.o
+ .debug_line    0x00000000000020d7      0x2bf build/tcs_m4/hid.o
+
+.debug_str      0x0000000000000000     0x4c25
+ .debug_str     0x0000000000000000      0x8cb build/tcs_m4/flash_samd51.o
+                                        0x9b9 (size before relaxing)
+ .debug_str     0x00000000000008cb      0xee4 build/tcs_m4/init_samd51.o
+                                       0x17e5 (size before relaxing)
+ .debug_str     0x00000000000017af      0xb15 build/tcs_m4/startup_samd51.o
+                                        0xd4f (size before relaxing)
+ .debug_str     0x00000000000022c4      0xb99 build/tcs_m4/usart_sam_ba.o
+                                       0x1637 (size before relaxing)
+ .debug_str     0x0000000000002e5d      0x13c build/tcs_m4/utils.o
+                                        0x9bb (size before relaxing)
+ .debug_str     0x0000000000002f99      0xa75 build/tcs_m4/cdc_enumerate.o
+                                       0x17a8 (size before relaxing)
+ .debug_str     0x0000000000003a0e      0x29f build/tcs_m4/fat.o
+                                        0x938 (size before relaxing)
+ .debug_str     0x0000000000003cad      0x302 build/tcs_m4/main.o
+                                        0xc36 (size before relaxing)
+ .debug_str     0x0000000000003faf      0x9ce build/tcs_m4/msc.o
+                                       0x191e (size before relaxing)
+ .debug_str     0x000000000000497d       0xa9 build/tcs_m4/sam_ba_monitor.o
+                                        0x7e1 (size before relaxing)
+ .debug_str     0x0000000000004a26      0x1ff build/tcs_m4/hid.o
+                                        0x923 (size before relaxing)
+
+.comment        0x0000000000000000       0x7f
+ .comment       0x0000000000000000       0x7f build/tcs_m4/flash_samd51.o
+                                         0x80 (size before relaxing)
+ .comment       0x000000000000007f       0x80 build/tcs_m4/init_samd51.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/startup_samd51.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/usart_sam_ba.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/utils.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/cdc_enumerate.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/fat.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/main.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/msc.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/sam_ba_monitor.o
+ .comment       0x000000000000007f       0x80 build/tcs_m4/hid.o
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x33 build/tcs_m4/flash_samd51.o
+ .ARM.attributes
+                0x0000000000000033       0x33 build/tcs_m4/init_samd51.o
+ .ARM.attributes
+                0x0000000000000066       0x33 build/tcs_m4/startup_samd51.o
+ .ARM.attributes
+                0x0000000000000099       0x33 build/tcs_m4/usart_sam_ba.o
+ .ARM.attributes
+                0x00000000000000cc       0x33 build/tcs_m4/utils.o
+ .ARM.attributes
+                0x00000000000000ff       0x33 build/tcs_m4/cdc_enumerate.o
+ .ARM.attributes
+                0x0000000000000132       0x33 build/tcs_m4/fat.o
+ .ARM.attributes
+                0x0000000000000165       0x33 build/tcs_m4/main.o
+ .ARM.attributes
+                0x0000000000000198       0x33 build/tcs_m4/msc.o
+ .ARM.attributes
+                0x00000000000001cb       0x33 build/tcs_m4/sam_ba_monitor.o
+ .ARM.attributes
+                0x00000000000001fe       0x33 build/tcs_m4/hid.o
+ .ARM.attributes
+                0x0000000000000231       0x2e /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000000000000025f       0x2e /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000028d       0x17 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+
+.debug_frame    0x0000000000000000      0xa48
+ .debug_frame   0x0000000000000000       0xac build/tcs_m4/flash_samd51.o
+ .debug_frame   0x00000000000000ac       0x40 build/tcs_m4/init_samd51.o
+ .debug_frame   0x00000000000000ec       0x38 build/tcs_m4/startup_samd51.o
+ .debug_frame   0x0000000000000124      0x1b0 build/tcs_m4/usart_sam_ba.o
+ .debug_frame   0x00000000000002d4      0x148 build/tcs_m4/utils.o
+ .debug_frame   0x000000000000041c      0x1d0 build/tcs_m4/cdc_enumerate.o
+ .debug_frame   0x00000000000005ec       0x98 build/tcs_m4/fat.o
+ .debug_frame   0x0000000000000684       0x30 build/tcs_m4/main.o
+ .debug_frame   0x00000000000006b4      0x1b4 build/tcs_m4/msc.o
+ .debug_frame   0x0000000000000868       0x90 build/tcs_m4/sam_ba_monitor.o
+ .debug_frame   0x00000000000008f8      0x108 build/tcs_m4/hid.o
+ .debug_frame   0x0000000000000a00       0x28 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000a28       0x20 /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/tcs_m4/startup_samd51.o
+ADC0_0_Handler                                    build/tcs_m4/startup_samd51.o
+ADC0_1_Handler                                    build/tcs_m4/startup_samd51.o
+ADC1_0_Handler                                    build/tcs_m4/startup_samd51.o
+ADC1_1_Handler                                    build/tcs_m4/startup_samd51.o
+AES_Handler                                       build/tcs_m4/startup_samd51.o
+AT91F_InitUSB                                     build/tcs_m4/cdc_enumerate.o
+AT91F_USB_SendZlp                                 build/tcs_m4/cdc_enumerate.o
+BusFault_Handler                                  build/tcs_m4/startup_samd51.o
+DAC_0_Handler                                     build/tcs_m4/startup_samd51.o
+DAC_1_Handler                                     build/tcs_m4/startup_samd51.o
+DAC_2_Handler                                     build/tcs_m4/startup_samd51.o
+DAC_3_Handler                                     build/tcs_m4/startup_samd51.o
+DAC_4_Handler                                     build/tcs_m4/startup_samd51.o
+DMAC_0_Handler                                    build/tcs_m4/startup_samd51.o
+DMAC_1_Handler                                    build/tcs_m4/startup_samd51.o
+DMAC_2_Handler                                    build/tcs_m4/startup_samd51.o
+DMAC_3_Handler                                    build/tcs_m4/startup_samd51.o
+DMAC_4_Handler                                    build/tcs_m4/startup_samd51.o
+DebugMon_Handler                                  build/tcs_m4/startup_samd51.o
+Dummy_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_0_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_10_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_11_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_12_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_13_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_14_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_15_Handler                                    build/tcs_m4/startup_samd51.o
+EIC_1_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_2_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_3_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_4_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_5_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_6_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_7_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_8_Handler                                     build/tcs_m4/startup_samd51.o
+EIC_9_Handler                                     build/tcs_m4/startup_samd51.o
+EVSYS_0_Handler                                   build/tcs_m4/startup_samd51.o
+EVSYS_1_Handler                                   build/tcs_m4/startup_samd51.o
+EVSYS_2_Handler                                   build/tcs_m4/startup_samd51.o
+EVSYS_3_Handler                                   build/tcs_m4/startup_samd51.o
+EVSYS_4_Handler                                   build/tcs_m4/startup_samd51.o
+FREQM_Handler                                     build/tcs_m4/startup_samd51.o
+HardFault_Handler                                 build/tcs_m4/startup_samd51.o
+I2S_Handler                                       build/tcs_m4/startup_samd51.o
+ICM_Handler                                       build/tcs_m4/startup_samd51.o
+MCLK_Handler                                      build/tcs_m4/startup_samd51.o
+MemManage_Handler                                 build/tcs_m4/startup_samd51.o
+NMI_Handler                                       build/tcs_m4/startup_samd51.o
+NVMCTRL_0_Handler                                 build/tcs_m4/startup_samd51.o
+NVMCTRL_1_Handler                                 build/tcs_m4/startup_samd51.o
+OSC32KCTRL_Handler                                build/tcs_m4/startup_samd51.o
+OSCCTRL_0_Handler                                 build/tcs_m4/startup_samd51.o
+OSCCTRL_1_Handler                                 build/tcs_m4/startup_samd51.o
+OSCCTRL_2_Handler                                 build/tcs_m4/startup_samd51.o
+OSCCTRL_3_Handler                                 build/tcs_m4/startup_samd51.o
+OSCCTRL_4_Handler                                 build/tcs_m4/startup_samd51.o
+PAC_Handler                                       build/tcs_m4/startup_samd51.o
+PCC_Handler                                       build/tcs_m4/startup_samd51.o
+PDEC_0_Handler                                    build/tcs_m4/startup_samd51.o
+PDEC_1_Handler                                    build/tcs_m4/startup_samd51.o
+PDEC_2_Handler                                    build/tcs_m4/startup_samd51.o
+PM_Handler                                        build/tcs_m4/startup_samd51.o
+PUKCC_Handler                                     build/tcs_m4/startup_samd51.o
+PendSV_Handler                                    build/tcs_m4/startup_samd51.o
+QSPI_Handler                                      build/tcs_m4/startup_samd51.o
+RAMECC_Handler                                    build/tcs_m4/startup_samd51.o
+RGBLED_set_color                                  build/tcs_m4/utils.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+                                                  build/tcs_m4/main.o
+RTC_Handler                                       build/tcs_m4/startup_samd51.o
+Reset_Handler                                     build/tcs_m4/startup_samd51.o
+SDHC0_Handler                                     build/tcs_m4/startup_samd51.o
+SERCOM0_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM0_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM0_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM0_3_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM1_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM1_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM1_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM1_3_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM2_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM2_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM2_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM2_3_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM3_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM3_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM3_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM3_3_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM4_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM4_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM4_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM4_3_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM5_0_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM5_1_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM5_2_Handler                                 build/tcs_m4/startup_samd51.o
+SERCOM5_3_Handler                                 build/tcs_m4/startup_samd51.o
+SUPC_0_Handler                                    build/tcs_m4/startup_samd51.o
+SUPC_1_Handler                                    build/tcs_m4/startup_samd51.o
+SVC_Handler                                       build/tcs_m4/startup_samd51.o
+SysTick_Handler                                   build/tcs_m4/init_samd51.o
+TAL_0_Handler                                     build/tcs_m4/startup_samd51.o
+TAL_1_Handler                                     build/tcs_m4/startup_samd51.o
+TC0_Handler                                       build/tcs_m4/startup_samd51.o
+TC1_Handler                                       build/tcs_m4/startup_samd51.o
+TC2_Handler                                       build/tcs_m4/startup_samd51.o
+TC3_Handler                                       build/tcs_m4/startup_samd51.o
+TC4_Handler                                       build/tcs_m4/startup_samd51.o
+TC5_Handler                                       build/tcs_m4/startup_samd51.o
+TCC0_0_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_1_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_2_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_3_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_4_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_5_Handler                                    build/tcs_m4/startup_samd51.o
+TCC0_6_Handler                                    build/tcs_m4/startup_samd51.o
+TCC1_0_Handler                                    build/tcs_m4/startup_samd51.o
+TCC1_1_Handler                                    build/tcs_m4/startup_samd51.o
+TCC1_2_Handler                                    build/tcs_m4/startup_samd51.o
+TCC1_3_Handler                                    build/tcs_m4/startup_samd51.o
+TCC1_4_Handler                                    build/tcs_m4/startup_samd51.o
+TCC2_0_Handler                                    build/tcs_m4/startup_samd51.o
+TCC2_1_Handler                                    build/tcs_m4/startup_samd51.o
+TCC2_2_Handler                                    build/tcs_m4/startup_samd51.o
+TCC2_3_Handler                                    build/tcs_m4/startup_samd51.o
+TCC3_0_Handler                                    build/tcs_m4/startup_samd51.o
+TCC3_1_Handler                                    build/tcs_m4/startup_samd51.o
+TCC3_2_Handler                                    build/tcs_m4/startup_samd51.o
+TCC4_0_Handler                                    build/tcs_m4/startup_samd51.o
+TCC4_1_Handler                                    build/tcs_m4/startup_samd51.o
+TCC4_2_Handler                                    build/tcs_m4/startup_samd51.o
+TRNG_Handler                                      build/tcs_m4/startup_samd51.o
+USB_0_Handler                                     build/tcs_m4/startup_samd51.o
+USB_1_Handler                                     build/tcs_m4/startup_samd51.o
+USB_2_Handler                                     build/tcs_m4/startup_samd51.o
+USB_3_Handler                                     build/tcs_m4/startup_samd51.o
+USB_Ok                                            build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/msc.o
+                                                  build/tcs_m4/main.o
+USB_Read                                          build/tcs_m4/cdc_enumerate.o
+USB_ReadBlocking                                  build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/msc.o
+USB_ReadCore                                      build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+USB_Write                                         build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/msc.o
+USB_WriteCore                                     build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+UsageFault_Handler                                build/tcs_m4/startup_samd51.o
+WDT_Handler                                       build/tcs_m4/startup_samd51.o
+_erelocate                                        build/tcs_m4/startup_samd51.o
+_estack                                           build/tcs_m4/startup_samd51.o
+_etext                                            build/tcs_m4/startup_samd51.o
+_ezero                                            build/tcs_m4/startup_samd51.o
+_sfixed                                           build/tcs_m4/startup_samd51.o
+_srelocate                                        build/tcs_m4/startup_samd51.o
+_szero                                            build/tcs_m4/startup_samd51.o
+add_crc                                           build/tcs_m4/usart_sam_ba.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+arrowLogo                                         build/tcs_m4/images.o
+b_sam_ba_interface_usart                          build/tcs_m4/sam_ba_monitor.o
+b_sharp_received                                  build/tcs_m4/usart_sam_ba.o
+binfo                                             build/tcs_m4/msc.o
+block_erased                                      build/tcs_m4/flash_samd51.o
+buffer_rx_usart                                   build/tcs_m4/usart_sam_ba.o
+buffer_tx_usart                                   build/tcs_m4/usart_sam_ba.o
+call_applet                                       build/tcs_m4/sam_ba_monitor.o
+cdc_is_rx_ready                                   build/tcs_m4/cdc_enumerate.o
+cdc_read_buf                                      build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+cdc_read_buf_xmd                                  build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+cdc_write_buf                                     build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+cdc_write_buf_xmd                                 build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+cfgDescriptor                                     build/tcs_m4/cdc_enumerate.o
+command                                           build/tcs_m4/sam_ba_monitor.o
+copy_words                                        build/tcs_m4/flash_samd51.o
+                                                  build/tcs_m4/hid.o
+ctrlOutCache                                      build/tcs_m4/cdc_enumerate.o
+current_cpu_frequency_MHz                         build/tcs_m4/init_samd51.o
+current_number                                    build/tcs_m4/sam_ba_monitor.o
+data                                              build/tcs_m4/sam_ba_monitor.o
+delay                                             build/tcs_m4/utils.o
+                                                  build/tcs_m4/main.o
+devDescriptor                                     build/tcs_m4/cdc_enumerate.o
+endpointCache                                     build/tcs_m4/cdc_enumerate.o
+error_timeout                                     build/tcs_m4/usart_sam_ba.o
+exception_table                                   build/tcs_m4/startup_samd51.o
+fileLogo                                          build/tcs_m4/images.o
+flash_erase_block                                 build/tcs_m4/flash_samd51.o
+flash_erase_to_end                                build/tcs_m4/flash_samd51.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+flash_write_row                                   build/tcs_m4/flash_samd51.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/fat.o
+flash_write_words                                 build/tcs_m4/flash_samd51.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+font8                                             build/tcs_m4/images.o
+getPacket                                         build/tcs_m4/usart_sam_ba.o
+handoverPrep                                      build/tcs_m4/msc.o
+                                                  build/tcs_m4/hid.o
+hidCfgDescriptor                                  build/tcs_m4/cdc_enumerate.o
+hidDescriptor                                     build/tcs_m4/cdc_enumerate.o
+hidHandoverLoop                                   build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+i                                                 build/tcs_m4/sam_ba_monitor.o
+idx_rx_read                                       build/tcs_m4/usart_sam_ba.o
+idx_rx_write                                      build/tcs_m4/usart_sam_ba.o
+idx_tx_read                                       build/tcs_m4/usart_sam_ba.o
+idx_tx_write                                      build/tcs_m4/usart_sam_ba.o
+indexFile                                         build/tcs_m4/fat.o
+infoUf2File                                       build/tcs_m4/fat.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+j                                                 build/tcs_m4/sam_ba_monitor.o
+led_init                                          build/tcs_m4/utils.o
+                                                  build/tcs_m4/main.o
+led_signal                                        build/tcs_m4/utils.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+                                                  build/tcs_m4/msc.o
+led_tick                                          build/tcs_m4/utils.o
+                                                  build/tcs_m4/init_samd51.o
+led_tick_on                                       build/tcs_m4/utils.o
+led_tick_step                                     build/tcs_m4/utils.o
+                                                  build/tcs_m4/main.o
+length                                            build/tcs_m4/sam_ba_monitor.o
+main                                              build/tcs_m4/main.o
+                                                  build/tcs_m4/startup_samd51.o
+memcpy                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memcpy-stub.o)
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+                                                  build/tcs_m4/fat.o
+                                                  build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/flash_samd51.o
+memset                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-memset.o)
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+                                                  build/tcs_m4/fat.o
+                                                  build/tcs_m4/cdc_enumerate.o
+mode_of_transfer                                  build/tcs_m4/usart_sam_ba.o
+mscReset                                          build/tcs_m4/msc.o
+msc_reset                                         build/tcs_m4/msc.o
+padded_memcpy                                     build/tcs_m4/fat.o
+                                                  build/tcs_m4/msc.o
+panic                                             build/tcs_m4/utils.o
+pendriveLogo                                      build/tcs_m4/images.o
+process_core                                      build/tcs_m4/hid.o
+process_hid                                       build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+process_msc                                       build/tcs_m4/msc.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+ptr                                               build/tcs_m4/sam_ba_monitor.o
+ptr_data                                          build/tcs_m4/sam_ba_monitor.o
+put_uint32                                        build/tcs_m4/sam_ba_monitor.o
+read_block                                        build/tcs_m4/fat.o
+                                                  build/tcs_m4/msc.o
+recv_hf2                                          build/tcs_m4/hid.o
+resetHorizon                                      build/tcs_m4/utils.o
+                                                  build/tcs_m4/main.o
+                                                  build/tcs_m4/fat.o
+resetIntoApp                                      build/tcs_m4/utils.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+resetIntoBootloader                               build/tcs_m4/utils.o
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/msc.o
+reset_ep                                          build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/msc.o
+row_same                                          build/tcs_m4/flash_samd51.o
+sam_ba_monitor_init                               build/tcs_m4/sam_ba_monitor.o
+sam_ba_monitor_run                                build/tcs_m4/sam_ba_monitor.o
+                                                  build/tcs_m4/main.o
+sam_ba_putdata_term                               build/tcs_m4/sam_ba_monitor.o
+send_hf2                                          build/tcs_m4/hid.o
+send_hf2_response                                 build/tcs_m4/hid.o
+size_of_data                                      build/tcs_m4/usart_sam_ba.o
+sp                                                build/tcs_m4/sam_ba_monitor.o
+stall_ep                                          build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/msc.o
+strlen                                            /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg_nano.a(lib_a-strlen.o)
+                                                  build/tcs_m4/hid.o
+                                                  build/tcs_m4/fat.o
+                                                  build/tcs_m4/cdc_enumerate.o
+system_init                                       build/tcs_m4/init_samd51.o
+                                                  build/tcs_m4/main.o
+timerHigh                                         build/tcs_m4/utils.o
+                                                  build/tcs_m4/main.o
+                                                  build/tcs_m4/fat.o
+timerTick                                         build/tcs_m4/utils.o
+                                                  build/tcs_m4/cdc_enumerate.o
+try_read_cbw                                      build/tcs_m4/msc.o
+u32tmp                                            build/tcs_m4/sam_ba_monitor.o
+uart_basic_init                                   build/tcs_m4/uart_driver.o
+                                                  build/tcs_m4/usart_sam_ba.o
+uart_disable                                      build/tcs_m4/uart_driver.o
+                                                  build/tcs_m4/usart_sam_ba.o
+uart_drv_error_flag                               build/tcs_m4/uart_driver.o
+uart_get_sercom_index                             build/tcs_m4/uart_driver.o
+uart_read_buffer_polled                           build/tcs_m4/uart_driver.o
+uart_read_byte                                    build/tcs_m4/uart_driver.o
+                                                  build/tcs_m4/usart_sam_ba.o
+uart_write_buffer_polled                          build/tcs_m4/uart_driver.o
+uart_write_byte                                   build/tcs_m4/uart_driver.o
+                                                  build/tcs_m4/usart_sam_ba.o
+udd_ep_set_halt                                   build/tcs_m4/msc.o
+udi_msc_csw_send                                  build/tcs_m4/msc.o
+usart_close                                       build/tcs_m4/usart_sam_ba.o
+usart_getc                                        build/tcs_m4/usart_sam_ba.o
+usart_getdata                                     build/tcs_m4/usart_sam_ba.o
+usart_getdata_xmd                                 build/tcs_m4/usart_sam_ba.o
+usart_is_rx_ready                                 build/tcs_m4/usart_sam_ba.o
+usart_open                                        build/tcs_m4/usart_sam_ba.o
+usart_putc                                        build/tcs_m4/usart_sam_ba.o
+usart_putdata                                     build/tcs_m4/usart_sam_ba.o
+usart_putdata_xmd                                 build/tcs_m4/usart_sam_ba.o
+usart_readc                                       build/tcs_m4/usart_sam_ba.o
+usart_sharp_received                              build/tcs_m4/usart_sam_ba.o
+usb_endpoint_table                                build/tcs_m4/cdc_enumerate.o
+usb_init                                          build/tcs_m4/cdc_enumerate.o
+                                                  build/tcs_m4/main.o
+writeNum                                          build/tcs_m4/utils.o
+                                                  build/tcs_m4/sam_ba_monitor.o
+                                                  build/tcs_m4/cdc_enumerate.o
+write_block                                       build/tcs_m4/fat.o
+                                                  build/tcs_m4/msc.o
